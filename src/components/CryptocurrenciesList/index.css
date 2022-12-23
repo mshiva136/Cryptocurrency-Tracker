@@ -1,0 +1,73 @@
+.main-heading {
+  color: #00e7ff;
+  font-size: 32px;
+}
+
+.image-crypto {
+  width: 90%;
+  height: 38%;
+}
+
+.cryptoList {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 90%;
+  border-style: solid;
+  border-color: #00e7ff;
+  border-width: 2px;
+  border-radius: 5px;
+  list-style-type: none;
+  padding: 0px;
+}
+
+.top-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  height: 60px;
+  background-color: #092e33;
+  color: #ffffff;
+  width: 100%;
+  padding: 10px;
+  padding-left: 5%;
+  padding-right: 6%;
+}
+
+.second-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 40%;
+  margin-left: auto;
+}
+
+.top-name {
+  font-size: 16px;
+  width: 15%;
+}
+
+.top-names {
+  font-size: 16px;
+  width: 25%;
+  margin-left: 5%;
+}
+
+@media screen and (max-width: 576px) {
+  .top-name {
+    font-size: 14px;
+  }
+  .top-names {
+    font-size: 12px;
+    width: 100%;
+  }
+  .second-div {
+    width: 40%;
+  }
+  .top-names {
+    width: 100%;
+  }
+}
